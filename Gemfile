@@ -52,6 +52,8 @@ group :development do
   gem 'guard', '~> 2.16', '>= 2.16.2'
   # automatically reloads your browser when 'view' files are modified.
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+
+  gem 'rb-readline', '~> 0.5.3'
 end
 
 group :test do
